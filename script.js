@@ -40,17 +40,9 @@ var small = document.getElementsByClassName("small");
 console.log(small);
 function foo(){var ok=true;
 var element=document.getElementsByClassName("small")[0];
-if(ok){
-	
-	var c=element.style.margin=(function(){
-		var y = "20px";
-	for(var i = 0;i<10;i++){
-		y++
-			}
-		})();
-	}
-};
 
+		element.style.margin="20px";
+}
 
 
 
